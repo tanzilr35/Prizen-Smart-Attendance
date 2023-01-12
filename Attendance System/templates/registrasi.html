@@ -1,0 +1,34 @@
+{% extends "_layout.html" %}
+{% block content %}
+<div class="container">
+    <!-- Training Wajah -->
+    <div class="col d-flex justify-content-center">
+        <div class="card" style="max-width: 90vh;">
+            <div class="card-header text-center">
+                Training Wajah Karyawan
+            </div>
+            <div class="card-body">
+                <form action="/tambah_user" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label>Nama Pegawai</label>
+                        <input type="text" class="form-control" id="nama_pegawai" name="nama_pegawai"
+                            placeholder="Masukkan nama Anda" required />
+                    </div>
+                    <div class="form-group">
+                        <label>NIP</label>
+                        <input type="number" class="form-control" id="nip_pegawai" name="nip_pegawai"
+                            placeholder="Masukkan NIP Anda" required />
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Add New User</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                Total Karyawan: {{ totalreg }}
+            </div>
+        </div>
+    </div>
+    <!-- End Training Wajah -->
+</div>
+{% endblock %}

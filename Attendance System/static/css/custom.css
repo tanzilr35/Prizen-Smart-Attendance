@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+#lin_grad {
+  /* Set the height of the div to the entire screen */
+  /* height: 100vh; */
+
+  /* linear-gradient syntax */
+  /* background-image: linear-gradient(#326e62, #9fbeae4c); */
+  background-color: rgba(50, 110, 98, 0.7);
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-custom .navbar-text:hover {
+  color: #ffffff;
+}
+/* change the link color */
+.navbar-custom .nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+.navbar-custom .nav-item.active .nav-link {
+  color: #ffffff;
+}
+
+/* text font */
+.navbar-brand {
+  font-family: "Barlow", sans-serif;
+}
+
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Barlow", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.card-header {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.alert {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+}
+
+/* button color */
+.btn-primary {
+  border-radius: 30px;
+  border-color: #326e62;
+  background-color: #326e62;
+}
+
+.btn-primary:hover {
+  border-color: #ffffff;
+  background-color: rgb(189, 57, 19); /* BD3913 */
+  color: #fff;
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 0.7rem;
+  padding-bottom: 0.5rem;
+}
+
+/* card */
+.card {
+  border-radius: 20px;
+}
+
+.card .card-home {
+  max-height: 45vh;
+}
+
+.card .card-histori {
+  max-height: 55vh;
+}
+
+/* .table { gk mau kebaca :(
+  max-height: 40vh;
+  overflow: auto;
+  display: inline-table;
+  width: 100%;
+} */
